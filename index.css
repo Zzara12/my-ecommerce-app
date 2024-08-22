@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add additional global styles below this line */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Or another font of your choice */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+/* index.css */
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating-star {
+  font-size: 1.25rem; /* Adjust size as needed */
+}
+
+.rating-text {
+  margin-left: 0.5rem;
+  color: #666; /* Text color */
+}
+
+.text-yellow-500 {
+  color: #FFD700; /* Gold color for stars */
+}
+
+.text-gray-300 {
+  color: #D1D5DB; /* Light gray for empty stars */
+}
